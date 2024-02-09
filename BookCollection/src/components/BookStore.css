@@ -1,0 +1,115 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff0000;
+    padding: 60px 60px;
+  }
+  
+  .navbar h1 {
+    font-size: 1.9rem;
+  }
+  
+  .navbar-left input[type="text"] {
+    padding: 5px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    font-size: 54px;
+  }
+  
+  .navbar-center input {
+    width: 30%;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    padding-left: 240px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(38, 26, 26, 0.1);
+  }
+  
+  .navbar-center {
+    width: max-content;
+    flex: 6;
+    text-align: center;
+    border-radius: 25px;
+  }
+  
+  .navbar-right .register-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(232, 97, 97);
+    border: 1px solid black;
+    padding: 9px 60px;
+    border-radius: 24px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Book list styles */
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 69px;
+    margin: 40px auto;
+    justify-content: center;
+    max-width: 1700px;
+  }
+  
+  .book-item {
+    width: calc(20% - 50px); /* Adjust width for 5 books in a line */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .book-image {
+    width: 100%;
+  }
+  
+  .book-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book-details {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .book-title {
+    font-size: 19px;
+    font-family: "Times New Roman", serif;
+    font-weight: 300;
+    margin: 10px 0;
+    word-wrap: break-word;
+  }
+  
+  .book-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  
+  .discounted-price {
+    color: #6aa1ff;
+    font-size: larger;
+    font-style: bold;
+  }
